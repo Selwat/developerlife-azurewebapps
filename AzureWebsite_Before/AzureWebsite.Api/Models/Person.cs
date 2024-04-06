@@ -21,3 +21,5 @@ namespace AzureWebsite.Api.Models
         public string? PhoneNumber { get; protected set; }
     }
 }
+
+//user: mikolaj pass: password1@

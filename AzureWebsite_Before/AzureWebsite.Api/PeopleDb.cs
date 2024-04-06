@@ -24,5 +24,7 @@ namespace AzureWebsite.Api
             entity.Property(p => p.LastName).HasMaxLength(100).IsRequired();
             entity.Property(p => p.LastName).HasMaxLength(20).IsRequired(false);
         }
+
+        public DbSet<Person> People { get; protected set; }
     }
 }
